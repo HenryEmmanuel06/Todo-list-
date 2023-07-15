@@ -95,3 +95,47 @@ ul li span{
 ul li span:hover {
     background-color: #edeef0;
 }
+@media screen and (max-width: 992px){
+  .container { 
+     width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 5px;
+}
+.todo{
+    width: 100%;
+    max-width: 540px;
+    background-color: #fff;
+    margin: 100px  auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 0;
+    margin-bottom: 25px;
+}
+input {
+    flex: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    width: 70%;
+}
+button {
+    border: none;
+    outline: none;
+    padding: 20px 0px;
+    width: 30%;
+    font-size: 16px;
+    background-color: #ff5945;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 40px;
+}
+}
